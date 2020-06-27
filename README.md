@@ -27,11 +27,11 @@ center: $center = \arg\max\{x + P[x]\mid 0\le x<i\}$.
    * case 2 $i < maxRight$<br>
    $(mirror + i) / 2 = center$
       * $P[mirror] < maxRight - i$, which means that $P[i] = P[mirror]$.<br>
-      ![avatar](https://github.com/gaoxy914/LeetCode/blob/master/images/manacher1.png)
+      ![avatar](https://github.com/gaoxy914/LeetCode/blob/master/images/manacher1.jpg)
       * $P[mirror] == maxRight - i$, which means that $P[i]$ is at least $maxRight - i$ and may be extended.<br>
-      ![avatar](https://github.com/gaoxy914/Leetcode/blob/master/images/manacher2.png)
+      ![avatar](https://github.com/gaoxy914/Leetcode/blob/master/images/manacher2.jpg)
       * $P[mirror] > maxRight - i$, which means that $P[i] = maxRight - i$ and can not be extended.<br>
-      ![avatar](https://github.com/gaoxy914/Leetcode/blob/master/images/manacher3.png)
+      ![avatar](https://github.com/gaoxy914/Leetcode/blob/master/images/manacher3.jpg)
 
 
 
